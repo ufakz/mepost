@@ -49,3 +49,5 @@ const usersController = {
         }).catch((err) => console.log(err))
     }
 }
+
+module.exports = usersController
