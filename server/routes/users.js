@@ -13,3 +13,5 @@ const usersRoute = (router) => {
     //Follow a user
     router.route('/users/follow').post(usersController.followUser)
 }
+
+module.exports = usersRoute
