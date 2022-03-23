@@ -1,6 +1,4 @@
 const Article = require('./../models/Article')
-const User = require('./../models/User')
-const fs = require('fs')
 const cloudinary = require('cloudinary').v2
 
 const articleController = {
@@ -88,3 +86,5 @@ const articleController = {
     },
 
 }
+
+module.exports = articleController
