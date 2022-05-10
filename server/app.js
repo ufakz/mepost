@@ -12,9 +12,9 @@ const router = express.Router()
 const url = process.env.MONGO_DB_URI || "mongodb://localhost:27017/medium"
 
 cloudinary.config({
-    cloud_name: 'farouqu',
-    api_key: '324883857256786',
-    api_secret: 'Bf_2jBAafb5whIiwrDR_oTvSuTU'
+    cloud_name: '###########3',
+    api_key: '#############',
+    api_secret: '##############'
 });
 
 try {
